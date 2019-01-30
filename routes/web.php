@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
 
-    return View::make('welcome');
+    return View::make('Home');
 });
 Route::get('/projet','ProjetController@returnView');
 Route::get('/projets','ProjetController@all')->name('formulaire');

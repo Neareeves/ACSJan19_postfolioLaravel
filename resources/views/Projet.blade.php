@@ -192,8 +192,8 @@
           <p>@{{item.description}}</p>
           <div class="boutons">
             
-          <a v-bind:href="item.github"><button>GitHub of the The project on GitHub</button></a>
-          <a v-bind:href="item.link"><button>Site en Online website</button></a>
+          <a v-bind:href="item.github"><button>The project on GitHub</button></a>
+          <a v-bind:href="item.link"><button>Online website</button></a>
           </div>
       </div>
       <div class="projetdrte">

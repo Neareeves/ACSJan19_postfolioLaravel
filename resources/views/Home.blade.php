@@ -1,4 +1,5 @@
 @include('Head')
+<div id="home">
 <div id="svgHome">
 	
  <div class="container"           
@@ -25,7 +26,7 @@
 
 </div>
 
-
+</div>
 
 <script type="text/javascript">
 	let homeSvg = document.getElementById('homeSvg');

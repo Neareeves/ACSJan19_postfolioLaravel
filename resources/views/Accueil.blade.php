@@ -20,10 +20,21 @@
 							<img class="boxshadow" src="{{asset('images/ERA-wetransfer.png')}}">
 						</div>
 					</div>
+					
 					<div class="GridAc3">
-						<div class="GridAc3Photo"><img class="boxshadow" src="{{asset('images/jimini.png')}}">
+							<div class="wrapper">
+								<div class="card">
+							<div class="GridAc3Photo">
+								<div class="front">
+								<img class="boxshadow jiminy" src="{{asset('images/jimini.png')}}">
+							</div>
+						</div>
+						<div class="right">
+							<h3>Découvrez le détail des projets et les liens GitHub dans la section "projets"</h3>
 						</div>
 					</div>
+							</div>
+						</div>
 					<div class="GridAc4">
 						<h3 class="GridAc4Titre">Les projets avec l'Access Code School</h3>
 						<div class="GridAc4Texte">Access Code School est un centre de formation labellisé "grande école du numérique". La formation de huit mois octroie un titre professionnel de designer web (bac +2) et s'organise sur un "mode projet". Pas de cours ni de contrôles, mais des projets à réalisés en groupe ou seul en des temps limités. Avant la date limite de rendu, à chaque projet, il faut délivrer un site internet fonctionnel respectant le cahier des charges.</div>
