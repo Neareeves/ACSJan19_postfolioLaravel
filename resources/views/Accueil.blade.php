@@ -30,7 +30,7 @@
 							</div>
 						</div>
 						<div class="right">
-							<h3>Découvrez le détail des projets et les liens GitHub dans la section "projets"</h3>
+							<h3>Découvrez le détail des projets et les liens GitHub dans la section "<a href='{!! url("/projet"); !!}'>projets</a>"</h3>
 						</div>
 					</div>
 							</div>

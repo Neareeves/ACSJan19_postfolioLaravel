@@ -80,7 +80,7 @@ methods: {
 
 });
 
-
+// json encode fait un tableau et l'envoie en json
 /*** traduction anglaise ************/
 var projets = new Vue ({
     el: '#projetsang',

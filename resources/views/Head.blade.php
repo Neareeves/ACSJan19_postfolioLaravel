@@ -17,7 +17,7 @@
 
 <nav>
   <ul>
-    <li><a href='{{ route("home") }}'><img src="{{asset('images/logo.png')}}"></a></li>
+    <li><a href='{{ route("home") }}'><img src="{{asset('images/logoaac.png')}}"></a></li>
     <li class='francais'><a href="{{ route('accueil') }}">Qui suis-je?</a></li>
      <li class='anglais'><a href="{!! url('/accueil'); !!}">Who am I?</a></li>
 

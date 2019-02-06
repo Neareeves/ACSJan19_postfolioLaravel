@@ -29,6 +29,10 @@ Route::get('/accueil', function() {
 	return view('Accueil');
 })->name('accueil');
 
+Route::get('/contact', function() {
+	return view('Contact');
+})->name('contact');
+
 // Route::get('CVang', function() {
 // 	return redirect (à creuser);
 // });
@@ -43,3 +47,6 @@ Route::get('/accueil', function() {
 //     return "Nous avons reçu votre email qui est " . request('name') . ' et votre mot de passe est ' . request('sujet');
 // })->name('inscription');
 Route::post('/inscription','ContactController@storeProjet')->name('inscription');
+
+Route::get('/contacter', 'ContacterController@returnView')->name('Contacter');
+Route::get('/zut', 'Accueil@returnView')->name('Contacter');

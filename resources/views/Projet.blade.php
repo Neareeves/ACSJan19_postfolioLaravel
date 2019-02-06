@@ -18,8 +18,8 @@
           <p>@{{item4.description}}</p>
           <div class="boutons">
             
-          <a v-bind:href="item4.github"><button>GitHub du projet</button></a>
-          <a v-bind:href="item4.link"><button>Site en ligne</button></a>
+          <a v-bind:href="item4.github"><button class="rainbow rainbow-1">GitHub du projet</button></a>
+          <a v-bind:href="item4.link"><button class="rainbow rainbow-1">Site en ligne</button></a>
           </div>
 
       </div>
@@ -50,8 +50,9 @@
           <p>@{{item5.description}}</p>
           <div class="boutons">
             
-          <a v-bind:href="item5.github"><button>GitHub du projet</button></a>
-          <a v-bind:href="item5.link"><button>Site en ligne</button></a>
+          <a v-bind:href="item5.github"><button class="coolBeans">GitHub du projet</button></a>
+          <a v-bind:href="item5.link"><button  class="coolBeans">Site en ligne</button></a>
+
           </div>
       </div>  
     </div>
@@ -72,8 +73,8 @@
           <p>@{{item.description}}</p>
           <div class="boutons">
             
-          <a v-bind:href="item.github"><button>GitHub du projet</button></a>
-          <a v-bind:href="item.link"><button>Site en ligne</button></a>
+          <a v-bind:href="item.github"><button class="rainbow rainbow-1">GitHub du projet</button></a>
+          <a v-bind:href="item.link"><button class="rainbow rainbow-1">Site en ligne</button></a>
           </div>
       
       </div>
@@ -103,8 +104,8 @@
           <p>@{{item2.description}}</p>
           <div class="boutons">
             
-          <a v-bind:href="item2.github"><button>GitHub du projet</button></a>
-          <a v-bind:href="item2.link"><button>Site en ligne</button></a>
+          <a v-bind:href="item2.github"><button class="coolBeans">GitHub du projet</button></a>
+          <a v-bind:href="item2.link"><button class="coolBeans">Site en ligne</button></a>
           </div>
       </div>
       
@@ -126,8 +127,8 @@
           <p>@{{item3.description}}</p>
           <div class="boutons">
             
-          <a v-bind:href="item3.github"><button>GitHub du projet</button></a>
-          <a v-bind:href="item3.link"><button>Site en ligne</button></a>
+          <a v-bind:href="item3.github"><button class="rainbow rainbow-1">GitHub du projet</button></a>
+          <a v-bind:href="item3.link"><button class="rainbow rainbow-1">Site en ligne</button></a>
           </div>
       </div>
       <div class="projetdrte">
@@ -170,8 +171,8 @@
           <p>@{{item5.description}}</p>
           <div class="boutons">
             
-          <a v-bind:href="item5.github"><button>The project on GitHub</button></a>
-          <a v-bind:href="item5.link"><button>Online website</button></a>
+          <a v-bind:href="item5.github"><button class="rainbow rainbow-1">The project on GitHub</button></a>
+          <a v-bind:href="item5.link"><button class="rainbow rainbow-1">Online website</button></a>
           </div>
       </div>  
     </div>
@@ -192,8 +193,8 @@
           <p>@{{item.description}}</p>
           <div class="boutons">
             
-          <a v-bind:href="item.github"><button>The project on GitHub</button></a>
-          <a v-bind:href="item.link"><button>Online website</button></a>
+          <a v-bind:href="item.github"><button class="coolBeans">The project on GitHub</button></a>
+          <a v-bind:href="item.link"><button class="coolBeans"">Online website</button></a>
           </div>
       </div>
       <div class="projetdrte">
@@ -222,8 +223,8 @@
           <p>@{{item2.description}}</p>
           <div class="boutons">
             
-          <a v-bind:href="item2.github"><button>The project on GitHub</button></a>
-          <a v-bind:href="item2.link"><button>Online website</button></a>
+          <a v-bind:href="item2.github"><button class="rainbow rainbow-1">The project on GitHub</button></a>
+          <a v-bind:href="item2.link"><button class="rainbow rainbow-1">Online website</button></a>
           </div>
       </div>
       
@@ -245,8 +246,8 @@
           <p>@{{item3.description}}</p>
           <div class="boutons">
             
-          <a v-bind:href="item3.github"><button>The project on GitHub</button></a>
-          <a v-bind:href="item3.link"><button>Online website</button></a>
+          <a v-bind:href="item3.github"><button class="coolBeans">The project on GitHub</button></a>
+          <a v-bind:href="item3.link"><button class="coolBeans">Online website</button></a>
           </div>
       </div>
       <div class="projetdrte">
@@ -275,8 +276,8 @@
           <p>@{{item4.description}}</p>
           <div class="boutons">
             
-          <a v-bind:href="item4.github"><button>The project on GitHub</button></a>
-          <a v-bind:href="item4.link"><button>Online website</button></a>
+          <a v-bind:href="item4.github"><button class="rainbow rainbow-1">The project on GitHub</button></a>
+          <a v-bind:href="item4.link"><button class="rainbow rainbow-1">Online website</button></a>
           </div>
       </div>
       
@@ -323,4 +324,6 @@ new Vue({
 })
 </script>
   @include('Contact')
+<!--   @yield('Contacter')
+  @extends('Contact') -->
   @include('Footer')
